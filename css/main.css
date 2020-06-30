@@ -1,5 +1,41 @@
+:root{
+    /*Colors*/
+    --black: #000;
+    /*Fonts*/
+    --arial: Arial, Helvetica, sans-serif;
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: var(--black);
+}
+
+body{
+    font-family: var(--arial);
+}
+
+.container{
+    max-width: 1160px;
+    margin: auto;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 80px 1fr;
+}
+
+.header{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
 }
