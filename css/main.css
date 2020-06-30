@@ -33,9 +33,25 @@ body{
     justify-content: flex-end;
 }
 
+.nav{
+    padding: 2rem;
+}
+
+.nav a{
+    margin-right: 10px;
+}
+
+.nav a:hover{
+    text-decoration: underline;
+}
+
 .main{
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    flex-direction: column;
+}
+.form {
+    display: flex;
     flex-direction: column;
 }
