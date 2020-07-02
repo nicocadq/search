@@ -51,7 +51,52 @@ body{
     justify-content: flex-start;
     flex-direction: column;
 }
+
+.logo{
+    height: 100px;
+    margin-top: 100px;
+}
+
+.logo img{
+    height: 100%;
+}
+
 .form {
     display: flex;
     flex-direction: column;
+    width: 500px;
+    margin-top: 15px;
 }
+
+.form input[type="text"]{
+    width: 100%;
+    height: 2.5rem;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+}
+
+.form input[type="text"]:focus{
+    outline: 0;
+}
+
+.form input[type="text"]:hover{
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+}
+
+.form .container_buttons{
+    width: calc(50%-20px);
+    margin: auto;
+    margin-top: 20px;
+}
+
+.form .button{
+    font-size: 12px;
+    height: 2rem;
+    width: 8rem;
+    margin: 5px;
+    padding: 5px;
+    background-color:#f2f2f2 ;
+    color: #5F6368;
+    border: none;
+}
+

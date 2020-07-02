@@ -9,19 +9,22 @@
 </head>
 
 <body>
-    <header>
-        <nav>
+    <header class="header">
+        <nav class="nav">
             <a href="">Image Search</a>
             <a href="">Advanced Search</a>
         </nav>
     </header>
-    <main>
-        <div>
+    <main class="main">
+        <div class="logo">
             <img src="img/logo.png" alt="Google">
         </div>
-        <form action="https://google.com/search">
+        <form action="https://google.com/search" class="form">
             <input type="text" name="q" id="">
-            <input type="submit" value="Google Search">
+            <div class="container_buttons">
+                <input type="submit" value="Google Search" class="button">
+                <a href="https://www.google.com/doodles" class="button">I'm feeling lucky</a>
+            </div>
         </form>
     </main>
 </body>
