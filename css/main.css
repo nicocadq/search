@@ -73,6 +73,7 @@ body{
     height: 2.5rem;
     border: 1px solid #ddd;
     border-radius: 20px;
+    padding: 1rem;
 }
 
 .form input[type="text"]:focus{
@@ -91,12 +92,16 @@ body{
 
 .form .button{
     font-size: 12px;
-    height: 2rem;
-    width: 8rem;
     margin: 5px;
-    padding: 5px;
+    padding: 14px;
     background-color:#f2f2f2 ;
     color: #5F6368;
     border: none;
+    border-radius: 8px;
+}
+
+.form .button:hover{
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
 }
 
