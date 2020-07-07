@@ -90,19 +90,23 @@ body{
     margin-top: 20px;
 }
 
-.form .button{
+.button{
     font-size: 12px;
-    margin: 5px;
-    padding: 14px;
     background-color:#f2f2f2 ;
     color: #5F6368;
     border: none;
     border-radius: 8px;
 }
 
-.form .button:hover{
+.button:hover{
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
     cursor: pointer;
+}
+
+.form .button{
+    font-size: 12px;
+    margin: 5px;
+    padding: 14px;
 }
 
 @media (max-width:500px){
