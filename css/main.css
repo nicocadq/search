@@ -49,6 +49,11 @@ a{
     cursor: pointer;
 }
 
+.field{
+    display: flex;
+    flex-direction: row;
+}
+
 /*Header*/
 .header{
     grid-area: header;
@@ -136,6 +141,40 @@ a{
     font-size: 12px;
     margin: 5px;
     padding: 14px;
+}
+
+.advanced .form .field{
+    margin-bottom: 5px;
+    align-items: center;
+}
+
+.advanced .form .field label{
+    font-size: 14px;
+    width: 40%;
+}
+
+.advanced .form .field input{
+    width: 60%;
+    height: 20px;
+    border-radius: 0;
+}
+
+.advanced .form .field input:focus{
+    border-color: #0000ff;
+}
+
+.advanced .form .field input:hover{
+    box-shadow: 0 0 0;
+}
+
+.advanced .form input[type="submit"]{
+    align-self: flex-end;
+    margin-top: 5px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0000ff;
+    color: #fff;
 }
 
 @media (max-width:500px){
