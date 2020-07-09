@@ -56,6 +56,12 @@ a{
     grid-template-columns: repeat(2, 50%);
 }
 
+.advanced .header h2{
+    justify-self: center;
+    align-self: center;
+    color: #ff0000;
+}
+
 .header .nav{
     grid-column-start: 2;
     padding: 2rem;
@@ -78,6 +84,14 @@ a{
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
+}
+
+.advanced .main {
+    justify-self: center;
+}
+
+.advanced .main h3{
+    align-self: flex-start;
 }
 
 .logo{
