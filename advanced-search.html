@@ -5,26 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Advanced Search</title>
-    <link rel="stylesheet" href="css/main.css">
+    <!-- <link rel="stylesheet" href="css/main.css"> -->
 </head>
 
 <body>
-    <div class="container">
+    <div class="container advanced">
         <header class="header">
+            <h1>Advanced Search</h1>
             <nav class="nav">
                 <a href="./google-search.html">Go Back to Google Search</a>
             </nav>
         </header>
         <main class="main">
-            <div class="logo">
-                <img src="img/logo.png" alt="Google">
-            </div>
+            <h3>Find pages with...</h3>
             <form class="form" action="https://google.com/search">
-                <input type="text" name="q" id="">
-                <div class="container_buttons">
-                    <input class="button" type="submit" value="Google Search">
-                    <a class="button" href="https://www.google.com/doodles">I'm feeling lucky</a>
+                <div class="field">
+                    <label for="all">all these words: </label>
+                    <input type="text" name="q" id="all">
                 </div>
+                <div class="field">
+                    <label for="exact">this exact word or phrase: </label>
+                    <input type="text" name="q" id="exact">
+                </div>
+                <div class="field">
+                    <label for="any">any of these words: </label>
+                    <input type="text" name="q" id="any">
+                </div>
+                <div class="field">
+                    <label for="all">none of these words: </label>
+                    <input type="text" name="q" id="all">
+                </div>
+                <input type="submit" value="Advanced Search">
             </form>
         </main>
     </div>
