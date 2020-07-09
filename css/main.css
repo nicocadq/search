@@ -21,14 +21,19 @@ body{
 }
 
 .container{
-    max-width: 1160px;
-    margin: auto;
     height: 100vh;
     display: grid;
-    grid-template-rows: 80px 1fr;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 80px 100px auto auto;
+    grid-template-areas: 
+        "header header header header"
+        ". . . ."
+        "main main main main"
+        ". . . .";
 }
 
 .header{
+    grid-area: header;
     display: flex;
     justify-content: flex-end;
 }
@@ -46,6 +51,7 @@ body{
 }
 
 .main{
+    grid-area: main;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -54,7 +60,6 @@ body{
 
 .logo{
     height: 100px;
-    margin-top: 100px;
 }
 
 .logo img{
